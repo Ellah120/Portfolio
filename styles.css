@@ -1,0 +1,1600 @@
+body{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+  display: flex;
+  position: fixed;
+  top: 0;
+  background-color: rgb(225, 230, 228);
+  height: 5rem;
+  width: 100%;
+  box-shadow: 1px 1px 8px gray;
+}
+.logo{
+position: absolute;
+margin-top: 1rem;
+margin-left: 2rem;
+width: 50px;
+height: 20px;
+font-family: 'Algerian';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 53px;
+letter-spacing: 5px;
+color: #17AFB9;
+}
+.hamburger {
+  display: none;
+}
+.nav-div {
+  margin-left: 60%;
+}
+.cancel {
+  display: none;
+}
+.nav-div li {
+  display: inline-block;
+  margin-top: 1rem;
+}
+.nav-div li:hover {
+ opacity: 0.5;
+ cursor: pointer;
+}
+.nav-div a {
+  text-decoration: none;
+  color: #17AFB9;
+  padding-left: 2.188rem;
+  font-size: small;
+}
+.subheader {
+  background-color:rgb(225, 230, 228);
+  height: 40.625rem;
+}
+.subheader-p {
+  padding-top: 9.375rem;
+  font-size: small;
+  color: rgb(79, 79, 79);
+  text-align: center;
+}
+.subheader h2 {
+  text-align: center;
+  margin-top: 1.875rem;
+  line-height: 1.875rem;
+}
+.secondP {
+  padding-top: 3.125rem;
+  text-align: center;
+  font-size: medium;
+  color: rgb(79, 79, 79);
+  line-height: 1.875rem;
+}
+.subheader-icons {
+  margin-left: 33.75rem;
+  margin-top: 1.875rem;
+  display: flex;
+  text-align: center;
+}
+.git, .mail, .cv {
+  margin-left: 1.875rem;
+}
+.linkedIn, .git, .mail, .cv {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: rgb(228, 228, 228);
+  box-shadow: 0 4px 8px 0 rgba(8, 4, 4, 0.4), 0 6px 20px 0 rgba(8, 4, 4, 0.4);
+}
+.linkedIn svg, .git svg, .mail svg, .cv svg {
+  padding-top: 0.625rem;
+  color: rgb(30, 162, 206);
+}
+.cv svg {
+  color: black;
+}
+.linkedIn:hover, .git:hover, .mail:hover, .cv:hover {
+  scale: 1.1;
+  transition: scale .5s ease-in-out;
+}
+#about {
+  display: flex;
+  height: 43.75rem;
+  justify-content:space-around ;
+  background-color: black;
+}
+.about-me {
+  padding-top: 8.75rem;
+  width: 31.25rem;
+  line-height: 1.563rem;
+}
+.about-me h1 {
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #17AFB9;
+}
+.about-me h2 {
+  color: #17AFB9;
+  margin-top: 0;
+}
+.about-me p {
+  color: rgb(225, 230, 228);
+}
+.my-pic {
+  padding-top: 14.375rem;
+}
+.my-pic img{
+  border-radius: 5%;
+  margin-top: 0;
+}
+.my-pic img:hover {
+  scale: 1.1;
+  transition: scale 1s ease-in-out;
+}
+#skills {
+  background-color: rgb(245, 250, 248);
+  height: 37.5rem;
+}
+#skills h2 {
+  margin-top: 0;
+  padding-top: 5rem;
+  padding-left: 3.125rem;
+  color: #17AFB9;
+  font-size: xx-large;
+}
+#skills h3 {
+  padding-left: 3.125rem;
+}
+.skills-icons {
+  padding-left: 3.125rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.html, .css, .js, .react, .bootstrap, .linux {
+  width: 23.75rem;
+  height: 8.125rem;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5%;
+  box-shadow: 5px 5px 8px gray;
+}
+.css, .js, .bootstrap, .linux {
+  margin-left: 2.5rem;
+}
+.react, .bootstrap, .linux {
+  margin-top: 2.5rem;
+}
+.html span, .css span, .js span, .react span, .bootstrap span, .linux span {
+  padding-top: 3.125rem;
+}
+.html img, .css img, .js svg, .react img, .bootstrap img, .linux img {
+  padding-top: 0.625rem;
+}
+.html:hover, .css:hover, .js:hover, .react:hover, .bootstrap:hover, .linux:hover {
+  scale: 1.05;
+  transition: scale 1s ease-in-out;
+}
+#projects {
+  background-color: rgb(233, 242, 242);
+  height: 43.75rem;
+}
+#projects h2 {
+  margin-top: 0;
+  padding-top: 5rem;
+  padding-left: 3.125rem;
+  color: #17AFB9;
+  font-size: xx-large;
+}
+#projects h4 {
+  padding-left: 3.125rem;
+}
+.projects-pic {
+  padding-left: 3.125rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.easybank, .movie, .todo-list {
+  width: 23.75rem;
+  border-radius: 5%;
+  box-shadow: 5px 5px 8px gray;
+  background-color: white;
+}
+.movie, .todo-list {
+  margin-left: 2.5rem;
+}
+.easybank, .todo-list {
+  height: 21.25rem;
+}
+.movie {
+  height: 27.5rem;
+}
+.easybank img, .movie img, .todo-list img {
+  padding-left: 1.063rem;
+  padding-top: 1.063rem;
+  width: 21.25rem;
+  border-radius: 0.625rem;
+}
+.easybank img, .todo-list img {
+  height: 19.375rem;
+}
+.movie img {
+  height: 25.625rem;
+}
+#easybank-link h2, #easybank-link p, #movie-link h2, #movie-link p, #todo-link h2, #todo-link p {
+  color: white;
+}
+#easybank-link a, #movie-link a, #todo-link a {
+  text-decoration: none;
+  color: black;
+}
+#easybank-link button, #movie-link button, #todo-link button {
+background-color: white;
+width: 9.375rem;
+height: 3.125rem;
+border-radius: 10%;
+margin-left: 3.125rem;
+border: none;
+}
+#easybank-link h2, #movie-link h2, #todo-link h2 {
+  padding-top: 0;
+}
+#easybank-link p, #movie-link p, #todo-link p {
+  padding-left: 3.125rem;
+}
+#easybank-link, #todo-link {
+  transform: translateY(-14.375rem);
+}
+#easybank-link , #movie-link , #todo-link {
+  margin-left: 3.125rem;
+  display: none;
+}
+#movie-link {
+  transform: translateY(-20.625rem);
+}
+.easybank:hover #easybank-link, .movie:hover #movie-link, .todo-list:hover #todo-link {
+display: block;
+
+}
+.easybank:hover, .movie:hover, .todo-list:hover {
+background-color: #17AFB9;
+  scale: 1.05;
+  transition: scale 1s ease-in-out;
+}
+.easybank:hover img, .movie:hover img, .todo-list:hover img {
+opacity: 0.2;
+}
+#contact {
+  background-color: black;
+  height: 56.25rem;
+}
+#contact h2 {
+  margin-top: 0;
+  padding-top: 5rem;
+  padding-left: 3.125rem;
+  color: #17AFB9;
+  font-size: xx-large;
+}
+#contact h4 {
+  padding-left: 3.125rem;
+  color: rgb(225, 230, 228);
+}
+#name, #email, #number, #subject {
+  margin-bottom: 3.125rem;
+  width: 18.75rem;
+  height: 4.375rem;
+  border-radius: 10%;
+  border: none;
+}
+#contact form {
+  margin-left: 3.125rem;
+}
+#number, #subject {
+  margin-left: 1.25rem;
+}
+textarea {
+  border: none;
+  border-radius: 5%;
+  margin-bottom: 1.25rem;
+}
+#message{
+  color: rgb(225, 230, 228);
+}
+#contact #form-button {
+  background-color: #17AFB9;
+  width: 12.5rem;
+  height: 2.5rem;
+  border-radius: 7%;
+  border: none;
+}
+#form-button a{
+text-decoration: none;
+color: black;
+}
+#top {
+  padding: 0;
+  background-color: black;
+  margin-left: 75rem;
+  border-radius: 50%;
+  box-shadow: 5px 5px 8px gray;
+  transform: translateY(-2.5rem);
+}
+#top svg {
+  color: #17AFB9;
+}
+footer p {
+  color: rgb(225, 230, 228);
+  text-align: center;
+  opacity: 0.3;
+}
+@media (max-width: 389px) and (min-width: 375px){
+  .hamburger{
+    display: flex;
+  }
+  .hamburger button {
+    background-color: rgb(225, 230, 228);
+    border: none;
+    margin-top: 0.3rem;
+    margin-left: 20rem;
+  }
+  .nav-div {
+    margin-left: 0;
+    background-color: #66d3db;
+    height: 100vh;
+    width: 9rem;
+    display: none;
+  }
+  .nav-div ul {
+    padding-left: 0;
+  }
+  .nav-div li {
+    display: block;
+    padding-bottom: 2rem;
+  }
+  .nav-div a {
+    color: rgb(225, 230, 228);
+  }
+  .cancel{
+    display: flex;
+    background-color: #66d3db;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 80%;
+    padding: 0;
+  }
+  .nav-div a {
+    padding-left: 1.4rem;
+  }
+  .subheader {
+    height: 35.625rem;
+  }
+  .subheader-p {
+    font-size: xx-small;
+  }
+  .secondP {
+    font-size: x-small;
+    width: 20rem;
+    margin-left: 3rem;
+  }
+  #about {
+    height: 40rem;
+  }
+  .about-me {
+    width: 20rem;
+    padding-top: 4rem;
+    margin-left: -2rem;
+  }
+  .about-me p {
+    font-size: small;
+  }
+  .my-pic {
+    opacity: 0.2;
+    margin-left: -30rem;
+  }
+  .my-pic img {
+    width: 15rem;
+  }
+  .html, .css, .js, .react, .bootstrap, .linux {
+    width: 14rem;
+    height: 8rem;
+  }
+  .html, .css {
+    margin-top: 2.5rem;
+  }
+  .js {
+    margin-top: 2.5rem;
+  }
+  .css, .linux, .react, .html, .js, .bootstrap {
+    margin-left: 2rem;
+  }
+  #skills {
+    height: 80rem;
+  }
+  #skills h3, #skills h2 {
+    text-align: center;
+  }
+  #projects {
+    height: 75rem;
+  }
+  #projects h2, #projects h4 {
+    text-align: center;
+  }
+  .easybank, .movie, .todo-list {
+    width: 14rem;
+    height: 16rem;
+  }
+  .easybank {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .movie, .todo-list {
+    margin-left: 2rem;
+    margin-top: 4rem;
+  }
+  .easybank img, .movie img, .todo-list img {
+    width: 11.5rem;
+    height: 14rem;
+  }
+  #top {
+    margin-left: 85%;
+  }
+  #easybank-link , #movie-link , #todo-link {
+    margin-left: -1.5rem;
+    margin-top: 2rem;
+  }
+  #movie-link {
+    margin-top: 8rem;
+  }
+  #easybank-link h2 {
+    margin-top: 1rem;
+  }
+  #easybank-link h2, #movie-link h2, #todo-link h2 {
+    margin-left: -5rem;
+  }
+  #easybank-link h2, #movie-link h2 {
+    margin-left: -4rem;
+  }
+  #movie-link p {
+    font-size: small;
+  }
+  #easybank-link button, #movie-link button, #todo-link button {
+    width: 8rem;
+    height: 3rem;
+    }
+  .subheader-icons {
+    margin-left: 20%;
+  }
+  #name, #email, #number, #subject {
+    width: 7rem;
+    height: 3rem;
+  }
+  textarea {
+    width: 16rem;
+  }
+}
+@media (max-width: 434px) and (min-width: 390px){
+  .hamburger{
+    display: flex;
+  }
+  .hamburger button {
+    background-color: rgb(225, 230, 228);
+    border: none;
+    margin-top: 0.3rem;
+    margin-left: 20rem;
+  }
+  .nav-div {
+    margin-left: 0;
+    background-color: #66d3db;
+    height: 100vh;
+    width: 9rem;
+    display: none;
+  }
+  .nav-div ul {
+    padding-left: 0;
+  }
+  .nav-div li {
+    display: block;
+    padding-bottom: 2rem;
+  }
+  .nav-div a {
+    color: rgb(225, 230, 228);
+  }
+  .cancel{
+    display: flex;
+    background-color: #66d3db;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 80%;
+    padding: 0;
+  }
+  .nav-div a {
+    padding-left: 1.4rem;
+  }
+  .subheader {
+    height: 35.625rem;
+  }
+  .subheader-p {
+    font-size: xx-small;
+  }
+  .secondP {
+    font-size: x-small;
+    width: 20rem;
+    margin-left: 3rem;
+  }
+  #about {
+    height: 40rem;
+  }
+  .about-me {
+    width: 20rem;
+    padding-top: 4rem;
+    margin-left: -2rem;
+  }
+  .about-me p {
+    font-size: small;
+  }
+  .my-pic {
+    opacity: 0.2;
+    margin-left: -30rem;
+  }
+  .my-pic img {
+    width: 20rem;
+  }
+  .html, .css, .js, .react, .bootstrap, .linux {
+    width: 14rem;
+    height: 8rem;
+  }
+  .html, .css {
+    margin-top: 2.5rem;
+  }
+  .js {
+    margin-top: 2.5rem;
+  }
+  .css, .linux, .react, .html, .js, .bootstrap {
+    margin-left: 2rem;
+  }
+  #skills {
+    height: 80rem;
+  }
+  #skills h3, #skills h2 {
+    text-align: center;
+  }
+  #projects {
+    height: 75rem;
+  }
+  #projects h2, #projects h4 {
+    text-align: center;
+  }
+  .easybank, .movie, .todo-list {
+    width: 14rem;
+    height: 16rem;
+  }
+  .easybank {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .movie, .todo-list {
+    margin-left: 2rem;
+    margin-top: 4rem;
+  }
+  .easybank img, .movie img, .todo-list img {
+    width: 11.5rem;
+    height: 14rem;
+  }
+  #top {
+    margin-left: 85%;
+  }
+  #easybank-link , #movie-link , #todo-link {
+    margin-left: -1.5rem;
+    margin-top: 2rem;
+  }
+  #movie-link {
+    margin-top: 8rem;
+  }
+  #easybank-link h2 {
+    margin-top: 1rem;
+  }
+  #easybank-link h2, #movie-link h2, #todo-link h2 {
+    margin-left: -5rem;
+  }
+  #easybank-link h2, #movie-link h2 {
+    margin-left: -4rem;
+  }
+  #movie-link p {
+    font-size: small;
+  }
+  #easybank-link button, #movie-link button, #todo-link button {
+    width: 8rem;
+    height: 3rem;
+    }
+  .subheader-icons {
+    margin-left: 20%;
+  }
+  #name, #email, #number, #subject {
+    width: 7rem;
+    height: 3rem;
+  }
+  textarea {
+    width: 16rem;
+  }
+}
+@media (max-width: 509px) and (min-width: 435px){
+  .hamburger{
+    display: flex;
+  }
+  .hamburger button {
+    background-color: rgb(225, 230, 228);
+    border: none;
+    margin-top: 0.3rem;
+    margin-left: 25rem;
+  }
+  .nav-div {
+    margin-left: 0;
+    background-color: #66d3db;
+    height: 100vh;
+    width: 9rem;
+    display: none;
+  }
+  .nav-div ul {
+    padding-left: 0;
+  }
+  .nav-div li {
+    display: block;
+    padding-bottom: 2rem;
+  }
+  .nav-div a {
+    color: rgb(225, 230, 228);
+  }
+  .cancel{
+    display: flex;
+    background-color: #66d3db;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 80%;
+    padding: 0;
+  }
+  .nav-div a {
+    padding-left: 1.4rem;
+  }
+  .subheader {
+    height: 35.625rem;
+  }
+  .subheader-p {
+    font-size: x-small;
+  }
+  .secondP {
+    font-size: x-small;
+    width: 25rem;
+    margin-left: 3rem;
+  }
+  #about {
+    height: 40rem;
+  }
+  .about-me {
+    width: 20rem;
+    padding-top: 4rem;
+    margin-left: 0.2rem;
+  }
+  .about-me p {
+    font-size: small;
+  }
+  .my-pic {
+    opacity: 0.2;
+    margin-left: -30rem;
+  }
+  .my-pic img {
+    width: 20rem;
+  }
+  .html, .css, .js, .react, .bootstrap, .linux {
+    width: 16rem;
+    height: 8rem;
+  }
+  .html, .css {
+    margin-top: 2.5rem;
+  }
+  .js {
+    margin-top: 2.5rem;
+  }
+  .css, .linux, .react, .html, .js, .bootstrap {
+    margin-left: 2.5rem;
+  }
+  #skills {
+    height: 80rem;
+  }
+  #skills h3, #skills h2 {
+    text-align: center;
+  }
+  #projects {
+    height: 100rem;
+  }
+  #projects h2, #projects h4 {
+    text-align: center;
+  }
+  .easybank, .movie, .todo-list {
+    width: 16rem;
+  }
+  .easybank {
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .movie, .todo-list {
+    margin-left: 4rem;
+    margin-top: 4rem;
+  }
+  .easybank img, .movie img, .todo-list img {
+    width: 13.5rem;
+  }
+  #top {
+    margin-left: 85%;
+  }
+  #easybank-link , #movie-link , #todo-link {
+    margin-left: -1.5rem;
+  }
+  #easybank-link h2, #movie-link h2, #todo-link h2 {
+    margin-left: -5rem;
+  }
+ 
+  #easybank-link button, #movie-link button, #todo-link button {
+    width: 8rem;
+    height: 3rem;
+    }
+  .subheader-icons {
+    margin-left: 25%;
+  }
+  #name, #email, #number, #subject {
+    width: 8rem;
+  }
+  textarea {
+    width: 18rem;
+  }
+}
+@media (max-width: 559px) and (min-width: 510px){
+  .hamburger{
+    display: flex;
+  }
+  .hamburger button {
+    background-color: rgb(225, 230, 228);
+    border: none;
+    margin-top: 0.3rem;
+    margin-left: 30rem;
+  }
+  .nav-div {
+    margin-left: 0;
+    background-color: #66d3db;
+    height: 100vh;
+    width: 9rem;
+    display: none;
+  }
+  .nav-div ul {
+    padding-left: 0;
+  }
+  .nav-div li {
+    display: block;
+    padding-bottom: 2rem;
+  }
+  .nav-div a {
+    color: rgb(225, 230, 228);
+  }
+  .cancel{
+    display: flex;
+    background-color: #66d3db;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 80%;
+    padding: 0;
+  }
+  .nav-div a {
+    padding-left: 1.4rem;
+  }
+  .subheader-p {
+    font-size: x-small;
+  }
+  .secondP {
+    font-size: x-small;
+  }
+  #about {
+    height: 40rem;
+  }
+  .about-me {
+    width: 25rem;
+    padding-top: 7rem;
+    margin-left: 1rem;
+  }
+  .about-me p {
+    font-size: small;
+  }
+  .my-pic {
+    opacity: 0.2;
+    margin-left: -30rem;
+  }
+  .html, .css, .js, .react, .bootstrap, .linux {
+    width: 20rem;
+    height: 8rem;
+  }
+  .html, .css {
+    margin-top: 2.5rem;
+  }
+  .js {
+    margin-top: 2.5rem;
+  }
+  .css, .linux, .react, .html, .js, .bootstrap {
+    margin-left: 4rem;
+  }
+  #skills {
+    height: 80rem;
+  }
+  #skills h3, #skills h2 {
+    text-align: center;
+  }
+  #projects {
+    height: 100rem;
+  }
+  #projects h2, #projects h4 {
+    text-align: center;
+  }
+  .easybank, .movie, .todo-list {
+    width: 20rem;
+  }
+  .easybank {
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .movie, .todo-list {
+    margin-left: 4rem;
+    margin-top: 4rem;
+  }
+  .easybank img, .movie img, .todo-list img {
+    width: 17.5rem;
+  }
+  #top {
+    margin-left: 85%;
+  }
+  #easybank-link , #movie-link , #todo-link {
+    margin-left: 3.5rem;
+  }
+  #easybank-link h2, #movie-link h2, #todo-link h2 {
+    margin-left: -11rem;
+  }
+ 
+  #easybank-link button, #movie-link button, #todo-link button {
+    width: 8rem;
+    height: 3rem;
+    }
+  .subheader-icons {
+    margin-left: 30%;
+  }
+  #name, #email, #number, #subject {
+    width: 10rem;
+  }
+  textarea {
+    width: 22rem;
+  }
+}
+@media (max-width: 619px) and (min-width: 560px){
+  .hamburger{
+    display: flex;
+  }
+  .hamburger button {
+    background-color: rgb(225, 230, 228);
+    border: none;
+    margin-top: 0.3rem;
+    margin-left: 33rem;
+  }
+  .nav-div {
+    margin-left: 82%;
+    background-color: #39b9c2;
+    height: 20rem;
+    width: 15rem;
+    display: none;
+  }
+  .nav-div ul {
+    padding-left: 0;
+  }
+  .nav-div li {
+    display: block;
+    padding-bottom: 1.3rem;
+  }
+  .nav-div a {
+    color: rgb(225, 230, 228);
+  }
+  .cancel{
+    display: flex;
+    background-color: #39b9c2;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 80%;
+    padding: 0;
+  }
+  .nav-div a {
+    padding-left: 1.4rem;
+  }
+  .subheader-p {
+    font-size: x-small;
+  }
+  .secondP {
+    font-size: x-small;
+  }
+  #about {
+    height: 40rem;
+  }
+  .about-me {
+    width: 25rem;
+    padding-top: 6rem;
+    margin-left: -8rem;
+  }
+  .about-me p {
+    font-size: small;
+  }
+  .my-pic {
+    opacity: 0.2;
+    margin-left: -45rem;
+  }
+  .html, .css, .js, .react, .bootstrap, .linux {
+    width: 20rem;
+    height: 8rem;
+  }
+  .html, .css {
+    margin-top: 2.5rem;
+  }
+  .js {
+    margin-top: 2.5rem;
+  }
+  .css, .linux, .react, .html, .js, .bootstrap {
+    margin-left: 4rem;
+  }
+  #skills {
+    height: 80rem;
+  }
+  #skills h3, #skills h2 {
+    text-align: center;
+  }
+  #projects {
+    height: 100rem;
+  }
+  #projects h2, #projects h4 {
+    text-align: center;
+  }
+  .easybank, .movie, .todo-list {
+    width: 20rem;
+  }
+  .easybank {
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .movie, .todo-list {
+    margin-left: 4rem;
+    margin-top: 4rem;
+  }
+  .easybank img, .movie img, .todo-list img {
+    width: 17.5rem;
+  }
+  #top {
+    margin-left: 85%;
+  }
+  #easybank-link , #movie-link , #todo-link {
+    margin-left: 3.5rem;
+  }
+  #easybank-link h2, #movie-link h2, #todo-link h2 {
+    margin-left: -11rem;
+  }
+ 
+  #easybank-link button, #movie-link button, #todo-link button {
+    width: 8rem;
+    height: 3rem;
+    }
+  .subheader-icons {
+    margin-left: 30%;
+  }
+  #name, #email, #number, #subject {
+    width: 10rem;
+  }
+  textarea {
+    width: 22rem;
+  }
+}
+@media (max-width:679px) and (min-width: 620px){
+  .hamburger{
+    display: flex;
+  }
+  .hamburger button {
+    background-color: rgb(225, 230, 228);
+    border: none;
+    margin-top: 0.3rem;
+    margin-left: 36rem;
+  }
+  .nav-div {
+    margin-left: 82%;
+    background-color: #39b9c2;
+    height: 20rem;
+    width: 15rem;
+    display: none;
+  }
+  .nav-div ul {
+    padding-left: 0;
+  }
+  .nav-div li {
+    display: block;
+    padding-bottom: 1.3rem;
+  }
+  .nav-div a {
+    color: rgb(225, 230, 228);
+  }
+  .cancel{
+    display: flex;
+    background-color: #39b9c2;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 80%;
+    padding: 0;
+  }
+  .nav-div a {
+    padding-left: 1.4rem;
+  }
+
+  .secondP {
+    font-size: small;
+  }
+  #about {
+    height: 40rem;
+  }
+  .about-me {
+    width: 30rem;
+    padding-top: 6rem;
+    margin-left: -4rem;
+  }
+  .about-me p {
+    font-size: medium;
+  }
+  .my-pic {
+    opacity: 0.2;
+    margin-left: -50rem;
+  }
+  .html, .css, .js, .react, .bootstrap, .linux {
+    width: 27rem;
+    height: 8rem;
+  }
+  .html, .css {
+    margin-top: 2.5rem;
+  }
+  .js {
+    margin-top: 2.5rem;
+  }
+  .css, .linux, .react, .html, .js, .bootstrap {
+    margin-left: 4rem;
+  }
+  #skills {
+    height: 80rem;
+  }
+  #skills h3, #skills h2 {
+    text-align: center;
+  }
+  #projects {
+    height: 100rem;
+  }
+  #projects h2, #projects h4 {
+    text-align: center;
+  }
+  .easybank, .movie, .todo-list {
+    width: 27rem;
+  }
+  .easybank {
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .movie, .todo-list {
+    margin-left: 4rem;
+    margin-top: 4rem;
+  }
+  .easybank img, .movie img, .todo-list img {
+    width: 24.5rem;
+  }
+  #top {
+    margin-left: 85%;
+  }
+  #easybank-link , #movie-link , #todo-link {
+    margin-left: 3.5rem;
+  }
+  #easybank-link h2, #movie-link h2, #todo-link h2 {
+    margin-left: -11rem;
+  }
+ 
+  #easybank-link button, #movie-link button, #todo-link button {
+    width: 8rem;
+    height: 3rem;
+    }
+  .subheader-icons {
+    margin-left: 30%;
+  }
+  #name, #email, #number, #subject {
+    width: 14rem;
+  }
+  textarea {
+    width: 30rem;
+  }
+}
+@media (max-width: 724px) and (min-width: 680px){
+  .hamburger{
+    display: flex;
+  }
+  .hamburger button {
+    background-color: rgb(225, 230, 228);
+    border: none;
+    margin-top: 0.3rem;
+    margin-left: 40rem;
+  }
+  .nav-div {
+    margin-left: 82%;
+    background-color: #39b9c2;
+    height: 20rem;
+    width: 15rem;
+    display: none;
+  }
+  .nav-div ul {
+    padding-left: 0;
+  }
+  .nav-div li {
+    display: block;
+    padding-bottom: 1.3rem;
+  }
+  .nav-div a {
+    color: rgb(225, 230, 228);
+  }
+  .cancel{
+    display: flex;
+    background-color: #39b9c2;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 80%;
+    padding: 0;
+  }
+  .nav-div a {
+    padding-left: 1.4rem;
+  }
+
+  .secondP {
+    font-size: small;
+  }
+  #about {
+    height: 40rem;
+  }
+  .about-me {
+    width: 30rem;
+    padding-top: 6rem;
+    margin-left: -4rem;
+  }
+  .about-me p {
+    font-size: medium;
+  }
+  .my-pic {
+    opacity: 0.2;
+    margin-left: -50rem;
+  }
+  .html, .css, .js, .react, .bootstrap, .linux {
+    width: 27rem;
+    height: 8rem;
+  }
+  .html, .css {
+    margin-top: 2.5rem;
+  }
+  .js {
+    margin-top: 2.5rem;
+  }
+  .css, .linux, .react, .html, .js, .bootstrap {
+    margin-left: 4rem;
+  }
+  #skills {
+    height: 80rem;
+  }
+  #skills h3, #skills h2 {
+    text-align: center;
+  }
+  #projects {
+    height: 100rem;
+  }
+  #projects h2, #projects h4 {
+    text-align: center;
+  }
+  .easybank, .movie, .todo-list {
+    width: 27rem;
+  }
+  .easybank {
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .movie, .todo-list {
+    margin-left: 4rem;
+    margin-top: 4rem;
+  }
+  .easybank img, .movie img, .todo-list img {
+    width: 24.5rem;
+  }
+  #top {
+    margin-left: 85%;
+  }
+  #easybank-link , #movie-link , #todo-link {
+    margin-left: 3.5rem;
+  }
+  #easybank-link h2, #movie-link h2, #todo-link h2 {
+    margin-left: -11rem;
+  }
+ 
+  #easybank-link button, #movie-link button, #todo-link button {
+    width: 8rem;
+    height: 3rem;
+    }
+  .subheader-icons {
+    margin-left: 35%;
+  }
+  #name, #email, #number, #subject {
+    width: 14rem;
+  }
+  textarea {
+    width: 30rem;
+  }
+}
+@media (max-width: 839px) and (min-width: 725px){
+  .nav-div {
+    margin-left: 40%;
+  }
+  .nav-div a {
+    padding-left: 1.4rem;
+  }
+
+  .secondP {
+    font-size: small;
+  }
+  #about {
+    height: 40rem;
+  }
+  .about-me {
+    width: 30rem;
+    padding-top: 6rem;
+    margin-left: 3rem;
+  }
+  .about-me p {
+    font-size: medium;
+  }
+  .my-pic {
+    opacity: 0.2;
+    margin-left: -50rem;
+  }
+  .html, .css, .js, .react, .bootstrap, .linux {
+    width: 27rem;
+    height: 8rem;
+  }
+  .html, .css {
+    margin-top: 2.5rem;
+  }
+  .js {
+    margin-top: 2.5rem;
+  }
+  .css, .linux, .react, .html, .js, .bootstrap {
+    margin-left: 4rem;
+  }
+  #skills {
+    height: 80rem;
+  }
+  #skills h3, #skills h2 {
+    text-align: center;
+  }
+  #projects {
+    height: 100rem;
+  }
+  #projects h2, #projects h4 {
+    text-align: center;
+  }
+  .easybank, .movie, .todo-list {
+    width: 30rem;
+  }
+  .easybank {
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .movie, .todo-list {
+    margin-left: 4rem;
+    margin-top: 4rem;
+  }
+  .easybank img, .movie img, .todo-list img {
+    width: 27.5rem;
+  }
+  #top {
+    margin-left: 85%;
+  }
+  #easybank-link , #movie-link , #todo-link {
+    margin-left: 8rem;
+  }
+  #easybank-link h2, #movie-link h2, #todo-link h2 {
+    margin-left: -9rem;
+  }
+ 
+  #easybank-link button, #movie-link button, #todo-link button {
+    width: 8rem;
+    height: 3rem;
+    }
+  .subheader-icons {
+    margin-left: 35%;
+  }
+  #name, #email, #number, #subject {
+    width: 14rem;
+  }
+  textarea {
+    width: 30rem;
+  }
+
+}
+@media (max-width: 949px) and (min-width: 840px){
+  .nav-div {
+    margin-left: 40%;
+  }
+  .about-me {
+    width: 20rem;
+    padding-top: 6rem;
+  }
+  .about-me p {
+    font-size: small;
+  }
+ 
+  .html, .css, .js, .react, .bootstrap, .linux {
+    width: 20rem;
+    height: 8rem;
+  }
+  .html, .css {
+    margin-top: 2.5rem;
+  }
+  .js {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+  .bootstrap {
+    margin-left: 0;
+  }
+  .css, .linux, .react {
+    margin-left: 4rem;
+  }
+  #skills {
+    height: 50rem;
+  }
+  #skills h3, #skills h2 {
+    text-align: center;
+  }
+  #projects {
+    height: 100rem;
+  }
+  #projects h2, #projects h4 {
+    text-align: center;
+  }
+  .easybank, .movie, .todo-list {
+    width: 30rem;
+  }
+  .easybank {
+    margin-left: 11rem;
+    margin-top: 2rem;
+  }
+  .movie, .todo-list {
+    margin-left: 11rem;
+    margin-top: 4rem;
+  }
+  .easybank img, .movie img, .todo-list img {
+    width: 27.5rem;
+  }
+  #top {
+    margin-left: 85%;
+  }
+  #easybank-link , #movie-link , #todo-link {
+    margin-left: 8rem;
+  }
+  #easybank-link h2, #movie-link h2, #todo-link h2 {
+    margin-left: -9rem;
+  }
+ 
+  #easybank-link button, #movie-link button, #todo-link button {
+    width: 8rem;
+    height: 3rem;
+    }
+  .subheader-icons {
+    margin-left: 40%;
+  }
+}
+@media (max-width: 989px) and (min-width: 950px){
+  .nav-div {
+    margin-left: 40%;
+  }
+  .about-me {
+    width: 20rem;
+    padding-top: 6rem;
+  }
+  .about-me p {
+    font-size: small;
+  }
+  .html, .css, .js, .react, .bootstrap, .linux {
+    width: 25rem;
+    height: 8rem;
+  }
+  .html, .css {
+    margin-top: 2.5rem;
+  }
+  .js {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+  .bootstrap {
+    margin-left: 0;
+  }
+  .css, .linux, .react {
+    margin-left: 4rem;
+  }
+  #skills {
+    height: 50rem;
+  }
+  #skills h3, #skills h2 {
+    text-align: center;
+  }
+  #projects {
+    height: 100rem;
+  }
+  #projects h2, #projects h4 {
+    text-align: center;
+  }
+  .easybank, .movie, .todo-list {
+    width: 30rem;
+  }
+  .easybank {
+    margin-left: 11rem;
+    margin-top: 2rem;
+  }
+  .movie, .todo-list {
+    margin-left: 11rem;
+    margin-top: 4rem;
+  }
+  .easybank img, .movie img, .todo-list img {
+    width: 27.5rem;
+  }
+  #top {
+    margin-left: 85%;
+  }
+  #easybank-link , #movie-link , #todo-link {
+    margin-left: 8rem;
+  }
+  #easybank-link h2, #movie-link h2, #todo-link h2 {
+    margin-left: -9rem;
+  }
+ 
+  #easybank-link button, #movie-link button, #todo-link button {
+    width: 8rem;
+    height: 3rem;
+    }
+  .subheader-icons {
+    margin-left: 40%;
+  }
+}
+@media (max-width: 1089px) and (min-width: 990px) {
+  .nav-div {
+    margin-left: 40%;
+  }
+  .about-me {
+    width: 20rem;
+    padding-top: 6rem;
+  }
+  .about-me p {
+    font-size: small;
+  }
+  .html, .css, .js, .react, .bootstrap, .linux {
+    width: 25rem;
+    height: 8rem;
+  }
+  .js {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+  .bootstrap {
+    margin-left: 0;
+  }
+  .css, .linux, .react {
+    margin-left: 4rem;
+  }
+  #skills {
+    height: 45rem;
+  }
+  .easybank, .movie, .todo-list {
+    width: 17rem;
+  }
+  .movie, .todo-list {
+    margin-left: 3rem;
+  }
+  .easybank img, .movie img, .todo-list img {
+    width: 14.5rem;
+  }
+  #top {
+    margin-left: 85%;
+  }
+  #easybank-link , #movie-link , #todo-link {
+    margin-left: 0.5rem;
+  }
+  #easybank-link p, #movie-link p, #todo-link p {
+    font-size: small;
+  }
+  #easybank-link button, #movie-link button, #todo-link button {
+    width: 8rem;
+    height: 3rem;
+    }
+  .subheader-icons {
+    margin-left: 40%;
+  }
+}
+@media (max-width: 1159px) and (min-width: 1090px){
+  .nav-div {
+    margin-left: 50%;
+  }
+  .html, .css, .js, .react, .bootstrap, .linux {
+    width: 30rem;
+    height: 8rem;
+  }
+  .js {
+    margin-left: 0px;
+    margin-top: 2.5rem;
+  }
+  .bootstrap {
+    margin-left: 0;
+  }
+  .css, .linux, .react {
+    margin-left: 3rem;
+  }
+  #skills {
+    height: 45rem;
+  }
+  .easybank, .movie, .todo-list {
+    width: 17rem;
+  }
+  .movie, .todo-list {
+    margin-left: 3rem;
+  }
+  .easybank img, .movie img, .todo-list img {
+    width: 14.5rem;
+  }
+  #top {
+    margin-left: 85%;
+  }
+  #easybank-link , #movie-link , #todo-link {
+    margin-left: 0.5rem;
+  }
+  #easybank-link p, #movie-link p, #todo-link p {
+    font-size: small;
+  }
+  #easybank-link button, #movie-link button, #todo-link button {
+    width: 8rem;
+    height: 3rem;
+    }
+  .subheader-icons {
+    margin-left: 40%;
+  }
+}
+@media (max-width: 1279px) and (min-width: 1160px) {
+  .nav-div {
+    margin-left: 50%;
+  }
+  .html, .css, .js, .react, .bootstrap, .linux {
+    width: 20rem;
+    height: 8rem;
+  }
+  .css, .js, .bootstrap, .linux {
+    margin-left: 3rem;
+  }
+  .easybank, .movie, .todo-list {
+    width: 20rem;
+  }
+  .movie, .todo-list {
+    margin-left: 3rem;
+  }
+  .easybank img, .movie img, .todo-list img {
+    width: 17.5rem;
+  }
+  #top {
+    margin-left: 69rem;
+  }
+  #easybank-link , #movie-link , #todo-link {
+    margin-left: 2.3rem;
+  }
+  .subheader-icons {
+    margin-left: 40%;
+  }
+}
