@@ -34,15 +34,10 @@ function hideNav(){
 }
 
 function hideList(){
-  // let cancelList = document.querySelector('.cancel');
   let hamburgerDiv = document.querySelector('.hamburger');
   let navigate = document.querySelector('.nav-div');
   if(navigate.style.display === 'block' ){
     navigate.style.display = 'none';
     hamburgerDiv.style.display = 'flex';
-    // cancelList.style.display === 'none'
-  }
-  else{
-    navigate.style.display = 'block';
   }
 }
